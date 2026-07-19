@@ -1,3 +1,17 @@
 {
-    "C_Cpp.intelliSenseEngine": "Tag Parser"
-  }
+  "C_Cpp.intelliSenseEngine": "Tag Parser",
+  "idf.currentSetup": "C:\\esp\\v6.0.1\\esp-idf",
+  "idf.openOcdConfigs": [
+    "board/esp32s3-builtin.cfg"
+  ],
+  "idf.customExtraVars": {
+    "CMake": "C:\\Users\\John\\.espressif\\tools\\cmake\\4.0.3\\bin",
+    "IDF_TARGET": "esp32s3"
+  },
+  "clangd.path": "C:\\Espressif\\tools\\esp-clang\\esp-20.1.1_20250829\\esp-clang\\bin\\clangd.exe",
+  "clangd.arguments": [
+    "--background-index",
+    "--query-driver=**",
+    "--compile-commands-dir=d:\\esp32s3-lvgl-st7789\\build"
+  ]
+}

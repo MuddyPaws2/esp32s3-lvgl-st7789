@@ -12,9 +12,9 @@ static const char *TAG = "lvgl_gui";
 
 // Enable one of the device/display from below
 //#include "conf_FeatherS3_ILI9341.h"   // Custom TFT configuration
-#include "conf_WT32SCO1.h"              // WT32-SC01 auto config
+//#include "conf_WT32SCO1.h"              // WT32-SC01 auto config
 // #include "conf_WT32SCO1-Plus.h"         // WT32-SC01 Plus support
-//#include "conf_TinyS3_ST7789.h"
+#include "conf_TinyS3_ST7789.h"
 //#include "conf_ProS3_ST7735S.h"
 
 #include "helper_display.hpp"

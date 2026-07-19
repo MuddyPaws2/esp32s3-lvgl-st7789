@@ -1,3 +1,8 @@
-manifest_hash: e0cfd1319bfb46d732ec9d319e9dc49e36898e504018c81401232151605e3547
-target: esp32
-version: 1.0.0
+dependencies:
+  idf:
+    source:
+      type: idf
+    version: 6.0.1
+manifest_hash: bc3292e6e8c183535ed972f5f33469ec6ed3ef632ab902c26ec8c60bf119f919
+target: esp32s3
+version: 3.0.0

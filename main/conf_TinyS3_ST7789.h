@@ -1,16 +1,16 @@
 
 #define SPI_MODE 3
 
-#define TFT_MOSI 35 // SDA
-#define TFT_MISO -1
-#define TFT_SCLK 36 // SCL
-#define TFT_DC 34
-#define TFT_CS -1
-#define TFT_RST 7
-#define TFT_BCK_LT 6
+#define TFT_MOSI 11 // SDA
+#define TFT_MISO 13
+#define TFT_SCLK 12 // SCL
+#define TFT_DC 14
+#define TFT_CS 10
+#define TFT_RST 9
+#define TFT_BCK_LT 21
 
 #define TFT_WIDTH 240
-#define TFT_HEIGHT 240
+#define TFT_HEIGHT 320
 
 class LGFX : public lgfx::LGFX_Device
 {
